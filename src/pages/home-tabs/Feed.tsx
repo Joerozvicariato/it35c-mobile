@@ -26,9 +26,9 @@ const Favorite: React.FC = () => {
 
 
             <IonList>
-                {games.map((game, index) => (
+                {games.map((item, index) => (
                     <IonItem key={index}>
-                        <IonLabel>{game.name}</IonLabel>
+                        <IonLabel>{item.name}</IonLabel>
                     </IonItem>
                 ))}
             </IonList>
